@@ -1,0 +1,69 @@
+/* Estilização para o body */
+body {
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Estilização do título principal */
+#titulo-principal {
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px #000;
+    margin-top: 20px;
+}
+
+/* Estilização do título secundário */
+#titulo-secundario {
+    font-size: 2em;
+    color: #80ffea;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+/* Estilização dos títulos terciários */
+#titulo-terciario {
+    font-size: 1.5em;
+    color: #00ffab;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Estilização dos parágrafos com classe 'destaque' */
+.destaque {
+    font-size: 1.2em;
+    line-height: 1.5;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #000;
+    margin-bottom: 20px;
+}
+
+/* Estilização da lista de projetos */
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 30px;
+    border-left: 4px solid #00ffab; 
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #000;
+}
+
+a {
+    color: #80ffea;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
